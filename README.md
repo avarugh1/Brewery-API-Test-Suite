@@ -34,13 +34,13 @@ Test Files can be found under src/tests/java
 ```bash
 Write a suite to automate a happy path and a negative path
 ```
--[x] Both scenarios can be found under src/tests/java/paths
+:heavy_check_mark: Both scenarios can be found under src/tests/java/paths
 ```bash
 Please write API specific tests
 ```
--[x] All API tests have, at minimum, status code assertions and response time assertions
+:heavy_check_mark: All API tests have, at minimum, status code assertions and response time assertions
 ```bash
 In addition to some automated tests that verify the functionality of the search bar, auto suggester
 ```
--[x] All other tests can be found in their respective folders under src/tests/java. 
--[x] All available filters are tested including sort functionality
+:heavy_check_mark: All other tests can be found in their respective folders under src/tests/java. 
+:heavy_check_mark: All available filters are tested including sort functionality
