@@ -43,4 +43,5 @@ Please write API specific tests
 In addition to some automated tests that verify the functionality of the search bar, auto suggester
 ```
 :heavy_check_mark: All other tests can be found in their respective folders under src/tests/java. 
+
 :heavy_check_mark: All available filters are tested including sort functionality
