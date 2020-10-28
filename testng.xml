@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Brewery Test Suite">
+    <parameter name="base" value="https://api.openbrewerydb.org/" />
+    <test name="Flows">
+        <classes>
+            <class name="tests.java.paths.HappyPathTests" />
+            <class name="tests.java.paths.NegativePathTests" />
+        </classes>
+    </test>
+    <test name="List Functionality">
+        <classes>
+            <class name="tests.java.listBreweries.ListBreweriesTests" />
+        </classes>
+    </test>
+    <test name="Get ID Functionality">
+        <classes>
+            <class name="tests.java.getBreweries.GetBreweriesTests" />
+        </classes>
+    </test>
+    <test name="Search Functionality">
+        <classes>
+            <class name="tests.java.searchBreweries.SearchBreweriesTests" />
+        </classes>
+    </test>
+    <test name="Autocomplete Functionality">
+        <classes>
+            <class name="tests.java.autocompleteBreweries.AutocompleteTests" />
+        </classes>
+    </test>
+</suite>
