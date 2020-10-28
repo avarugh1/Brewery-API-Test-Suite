@@ -27,7 +27,7 @@ public class ListBreweriesTests extends AbstractTest {
         return bd;
     }
 
-    @Test(description = "Get list of breweries by city: San Diego")
+    @Test(groups = { "sanity" }, description = "Get list of breweries by city: San Diego")
     public ReturnWrapper<BreweryData> byCity(){
         HashMap<String, String> qp = new HashMap<>();
         qp.put("by_city", "san diego");
@@ -39,7 +39,7 @@ public class ListBreweriesTests extends AbstractTest {
         return bd;
     }
 
-    @Test(description = "All breweries in the city of San Diego should be in the state of California")
+    @Test(groups = { "sanity" }, description = "All breweries in the city of San Diego should be in the state of California")
     public void searchStateOfSanDiego(){
         ReturnWrapper<BreweryData> bd = byCity();
         List<BreweryData> parsed = bd.getBodyObjects();
@@ -195,7 +195,7 @@ public class ListBreweriesTests extends AbstractTest {
                 "First element should be 101 Brewery!");
     }
 
-    @Test(description = "Test with multiple parameters")
+    @Test(groups = { "sanity" }, description = "Test with multiple parameters")
     public void testMultipleQueryParams(){
         HashMap<String, String> qp = new HashMap<>();
         qp.put("by_postal", "35222");

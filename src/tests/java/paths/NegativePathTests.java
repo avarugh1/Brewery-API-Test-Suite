@@ -39,7 +39,7 @@ public class NegativePathTests extends AbstractTest {
         return null;
     }
 
-    @Test(description = "User incorrectly enters autocomplete data. User incorrectly searchs for that data")
+    @Test(groups = { "sanity" }, description = "User incorrectly enters autocomplete data. User incorrectly searchs for that data")
     public void negativeTests() {
         // User uses autocomplete to start searching for nonexistent data.
         AutocompleteBrewery acb = userAutocomplete("lasjdlfajsldfa");

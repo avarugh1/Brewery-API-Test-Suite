@@ -28,4 +28,12 @@
             <class name="tests.java.autocompleteBreweries.AutocompleteTests" />
         </classes>
     </test>
+
+    <test name="sanityruns">
+        <groups>
+            <run>
+                <include name="sanity" />
+            </run>
+        </groups>
+    </test>
 </suite>

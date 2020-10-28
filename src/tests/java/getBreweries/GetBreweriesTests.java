@@ -24,7 +24,7 @@ public class GetBreweriesTests extends AbstractTest {
         Assert.assertTrue(bd.getResponse().getTime() < 3000, "Response Time was greater than 3 seconds!");
     }
 
-    @Test(description = "Get brewery by id: 142")
+    @Test(groups = { "sanity" }, description = "Get brewery by id: 142")
     public void getBreweryBy142(){
         ReturnWrapper<BreweryData> bd = getBrewery("142");
         List<BreweryData> parsed = bd.getBodyObjects();

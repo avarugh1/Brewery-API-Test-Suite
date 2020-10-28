@@ -46,7 +46,7 @@ public class HappyPathTests extends AbstractTest {
         Assert.assertEquals(acb.getId(), bd.getId(), "ID's were not equal!");
     }
 
-    @Test(description = "Happy path for user flow for autocomplete, search, and id verification for string Dog")
+    @Test(groups = { "sanity" }, description = "Happy path for user flow for autocomplete, search, and id verification for string Dog")
     public void happyPath(){
         // User uses autocomplete to start searching for dog. User chooses first option
         AutocompleteBrewery acb = userAutocomplete("dog");

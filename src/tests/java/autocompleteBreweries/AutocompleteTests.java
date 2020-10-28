@@ -29,7 +29,7 @@ public class AutocompleteTests extends AbstractTest {
         Assert.assertTrue(parsed.size() == 0, "List endpoint returned empty!");
     }
 
-    @Test(description = "Get Autocomplete for dog")
+    @Test(groups = { "sanity" }, description = "Get Autocomplete for dog")
     public void getAutocompleteDog(){
         ReturnWrapper<AutocompleteBrewery> bd = getList("dog");
 
