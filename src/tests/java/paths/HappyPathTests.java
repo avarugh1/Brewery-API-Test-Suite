@@ -48,7 +48,7 @@ public class HappyPathTests extends AbstractTest {
 
     @Test(description = "Happy path for user flow for autocomplete, search, and id verification for string Dog")
     public void happyPath(){
-        // User uses autocomplete to start searching for dog. User chooses first option.
+        // User uses autocomplete to start searching for dog. User chooses first option
         AutocompleteBrewery acb = userAutocomplete("dog");
 
         // User types out entire first option name and hits search
