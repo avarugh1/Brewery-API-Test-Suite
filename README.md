@@ -1,5 +1,5 @@
 # Brewery API Test Suite
-[![Build Status](https://travis-ci.org/avarugh1/brewerytestsuite.svg?branch=master)](https://travis-ci.org/avarugh1/brewerytestsuite)
+[![Build Status](https://travis-ci.org/avarugh1/Brewery-API-Test-Suite.svg?branch=master)](https://travis-ci.org/avarugh1/Brewery-API-Test-Suite)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/91a59f32-c5f9-43ae-bf79-10afa1ed317d/deploy-status)](https://app.netlify.com/sites/happy-kalam-893fb1/deploys)
 
 Created by Anson Varughese
@@ -31,17 +31,10 @@ Test Files can be found under src/tests/java
 
 ## Requirements Analysis
 
-```bash
-Write a suite to automate a happy path and a negative path
-```
-:heavy_check_mark: Both scenarios can be found under src/tests/java/paths
-```bash
-Please write API specific tests
-```
+:heavy_check_mark: Both happy path and a negative path scenarios can be found under src/tests/java/paths
+
 :heavy_check_mark: All API tests have, at minimum, status code assertions and response time assertions
-```bash
-In addition to some automated tests that verify the functionality of the search bar, auto suggester
-```
+
 :heavy_check_mark: All other tests can be found in their respective folders under src/tests/java. 
 
 :heavy_check_mark: All available filters are tested including sort functionality
